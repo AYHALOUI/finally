@@ -6,7 +6,7 @@
 /*   By: ahaloui <ahaloui@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/24 12:54:10 by ahaloui           #+#    #+#             */
-/*   Updated: 2023/03/02 17:49:55 by ahaloui          ###   ########.fr       */
+/*   Updated: 2023/03/06 15:13:48 by ahaloui          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,18 +33,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 			new = NULL;
 		}
 	}
-}
-
-t_list	*ft_lstlast(t_list *lst)
-{
-	t_list	*tmp;
-
-	if (!lst)
-		return (NULL);
-	tmp = lst;
-	while (tmp->next != NULL)
-		tmp = tmp->next;
-	return (tmp);
 }
 
 t_list	*ft_lstnew(int data)

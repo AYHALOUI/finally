@@ -6,7 +6,7 @@
 /*   By: ahaloui <ahaloui@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 15:15:26 by ahaloui           #+#    #+#             */
-/*   Updated: 2023/03/04 16:27:58 by ahaloui          ###   ########.fr       */
+/*   Updated: 2023/03/05 18:04:48 by ahaloui          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	check_is_empty(char *str)
 
 int	is_contain_allspace(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
